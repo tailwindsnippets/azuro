@@ -1,7 +1,6 @@
 import cx from 'classnames'
 import Image from 'next/image'
 import { Href } from 'components/navigation'
-//test
 
 type LogoProps = {
   className?: string
@@ -14,10 +13,10 @@ const Logo: React.FC<LogoProps> = (props) => {
     <Href to="/" className={cx('flex items-center', className)}>
       <Image
         className="h-full"
-        src="/images/logo.webp"
+        src="/images/logo.svg"
         alt="Smart contracts bets"
-        width={71}
-        height={71}
+        width={512}
+        height={512}
         unoptimized
       />
     </Href>
