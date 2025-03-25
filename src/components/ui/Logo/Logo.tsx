@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = (props) => {
     <Href to="/" className={cx('flex items-center', className)}>
       <Image
         className="h-full"
-        src="/images/logo.svg"
+        src="/images/logo.webp"
         alt="Smart contracts bets"
         width={512}
         height={512}
