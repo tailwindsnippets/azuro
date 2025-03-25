@@ -2,6 +2,7 @@ import cx from 'classnames'
 import Image from 'next/image'
 import { Href } from 'components/navigation'
 
+
 type LogoProps = {
   className?: string
 }
